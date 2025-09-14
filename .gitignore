@@ -1,0 +1,11 @@
+# Ignore Python cache and virtual env
+__pycache__/
+*.pyc
+venv/
+
+# Ignore dataset and embeddings
+dataset/
+
+# Ignore logs and temp files
+*.log
+*.tmp
