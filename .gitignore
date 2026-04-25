@@ -3,9 +3,26 @@ __pycache__/
 *.pyc
 venv/
 
-# Ignore dataset and embeddings
+# Ignore dataset
 dataset/
+SKU110K_fixed/
+crops/
+sku110k_crop/
+SKU110K_cropped/
+*.zip
+*.yaml
+dataset.zip
+crops.zip
+
+# Ignore model checkpoints and embeddings
+embeddings.npz
+Grocery_products.7z
+*.pth
+*.pt
 
 # Ignore logs and temp files
 *.log
 *.tmp
+
+# .py files are not ignored to allow for code review and version control of changes.
+model_test.py
